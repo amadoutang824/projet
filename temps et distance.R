@@ -10,5 +10,3 @@ plot( dist, temp, main = "distance vs. temps",
 
 
 text(dist, temp+1, labels = nom, col = "blue", )
-
-text(dist, temp, genre,, pos=1, col = "darkgreen")
