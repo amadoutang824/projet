@@ -1,4 +1,4 @@
-le temps et la distanced qu ils font avant d arriver à la destination 
+#le temps et la distance qu'ils font avant d'arriver à la destination 
 
 dist = c(2, 4, 5, 3, 15, 10, 4, 12, 8)
 temp = c(15, 25, 25, 50, 45, 10, 38, 55, 30)
@@ -10,3 +10,6 @@ plot( dist, temp, main = "distance vs. temps",
 
 
 text(dist, temp+1, labels = nom, col = "blue", )
+
+dist(seq(2,12, by=1 ))
+

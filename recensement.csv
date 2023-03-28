@@ -1,0 +1,19 @@
+id;age;sexe;nivetud;poids;occup;qualif
+1;28;femme;enseignement superieur y compris technique superieur;2634.3982;exerce une proession;Employe
+2;23;femme;NA;9738.3958;Etudiant eleve;NA
+3;59;Homme;Derniere annee d'etude primaire;3994.1025;exerce une profession;Technicien
+4;34;Homme;Enseignement superieur y compris technique sup;5731.6615;Exerce une profession;Tecnicien
+5;71;Homme;Derniere annee d'etude primaire;4329.0940;Retraite;Employe
+6;35;Femme;Enseignement technique ou proessionel court;6165.8035;Au foyer;Ouvrier qualifier
+7;60;Femme;Derniere annee d'etude primaire;8674.6994;Exerce une profession;Ouvrier qualifier
+8;47;Homme;Enseignement technique ou proessionel court;12891.6408;Exerce une profession;Employe
+9;20;Femme;NA;7808.87;Etudiant eleve;NA
+10;28;Homme;enseignement technique ou professionnel long;2277.16;Exerce une profession;Autre
+11;65;Femme;Enseignement superieur y compris technique sup;704.32;Retraite;Employe
+12;47;Homme;2eme cycle;6697.86;Exerce une profession;Ouvrier qualifie
+13;63;Femme;Derniere annee d'etude primaires;7118.45;Retraite;Employe
+14;67;Femme;Enseignement superieur ou professionel court;586.77;Exerce une profession;NA
+15;76;Femme;A arret les etudes avant la derniere annee d'etude;110424;Retraite;NA
+16;49;Femme;Enseignement superieur ou professionel court;9958.22;Exerce une profession;Employe
+17;62;Homme;Enseignement superieur y compris technique sup;4836.13;Retraite;Cadre
+18;20;Femme;NA;1551.48;Etudiant Eleve;NA
