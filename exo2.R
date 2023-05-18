@@ -22,3 +22,24 @@ view(vol4)
 vol4 <- arrange(flights, distance)
 view(vol4)
 
+#SELECT()
+#visualisation de trois variables
+vis_1 <- select(flights, year, month, day)
+view(vis_1)
+#visualiser tout sauf (year et day)
+vis_2 <- select(flights, -(year | day))
+view(vis_2)
+#visualiser flights en mettant au debut time_hour et air_time
+vis_3 <- select(flights, time_hour, air_time, everything())
+view(vis_3)
+#visualiser d'un coup tous les variables contenants "TIME"
+vis_4 <- select(flights, contains('time'))
+view(vis_4)
+#visualiser d'un coup tous les variables commençant par dep
+vis_5 <- select(flights, starts_with("dep"))
+view(vis_5)
+
+
+
+
+
