@@ -41,6 +41,7 @@ view(vol_pr)
 vol_ret <- arrange(flights, desc(arr_delay))
 view(vol_ret) 
 
+#Select()
 #Selection de données avec la fonction select()
 three <- select(flights, year, month, day)
 three
@@ -71,16 +72,23 @@ rename(flights, transporteur = carrier)
 #selectionner les variables qu'on souhaite mettre à l'avant
 select(flights, origin, dest, carrier, everything())
 
-
+#mutate()
 #Selection et Ajout de nouvelles colonnes dans le tableaux 
 flights_sm1 <- select(flights, year, month, day, ends_with("delay"),
        distance, air_time 
        )
-mutate(flights_sm1, 
+fm <- mutate(flights_sm1, 
        gain = dep_delay - arr_delay,
        speed = distance / air_time
        )
-flights_sm1
+view(fm)
+
+#conserver que de nouvelles variables avec la fonction transmute()
+transmute(flights, 
+          gain = dep_delay - arr_delay,
+          
+          gain_par_heure = gain / hour)
+
 
 
 
